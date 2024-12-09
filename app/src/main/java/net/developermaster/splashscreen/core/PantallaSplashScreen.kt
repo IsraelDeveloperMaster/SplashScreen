@@ -52,12 +52,10 @@ fun Splash() {
             modifier = Modifier
                 .padding(all = 8.dp)//todo padding top
                 .border(2.dp, Color.Yellow, CutCornerShape(20)),//todo borda amarela circular
-
             text = "Carregando...",//todo texto
             color = Color.Red,//todo cor vermelha
             fontSize = 30.sp,//todo tamanho da fonte
             fontFamily = FontFamily.SansSerif,//todo tipo de fonte
         )
     }
-
 }
