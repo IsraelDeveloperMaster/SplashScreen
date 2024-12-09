@@ -1,4 +1,4 @@
-package net.developermaster.splashscreen.navigation
+package net.developermaster.splashscreen.splashScreenNavigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
@@ -13,10 +13,11 @@ fun AppNavigation() {
     val navController = rememberNavController()
 
     NavHost(
-        navController =  navController, startDestination = AppScreens.SplashScreen.route) {
+        navController = navController, startDestination = ModelSplashScreens.SplashScreenObject.route
+    ) {
 
-        composable(AppScreens.SplashScreen.route) {SplashScreen(navController)}
-        composable(AppScreens.MainScreen.route) {MainScreen()}
+        composable(ModelSplashScreens.SplashScreenObject.route) { SplashScreen(navController) }
+        composable(ModelSplashScreens.MainScreenObject.route) { MainScreen() }
 
     }
 }

@@ -12,7 +12,8 @@ fun MainScreen() {
 
     Column(
         modifier = Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally,) {
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
         Text(text = "Pantalla principal")
     }
 
