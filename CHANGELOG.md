@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/IsraelDeveloperMaster/SplashScreen/compare/v1.1.0...v1.2.0) (2024-12-08)
+
+
+### Features
+
+* Implement Splash Screen Navigation ([e5a902e](https://github.com/IsraelDeveloperMaster/SplashScreen/commit/e5a902eff5f3373bb9b9e08232cb9ae573cb8f45))
+
 ## [1.1.0](https://github.com/IsraelDeveloperMaster/SplashScreen/compare/v1.0.0...v1.1.0) (2024-12-08)
 
 
